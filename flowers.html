@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Flower Page · For Faith</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+
+        /* FLOWER FRAMES */
+
+        .flower-collection {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 28px;
+            margin: 40px 0;
+        }
+
+        .flower-frame {
+            background: #fffdf8;
+            padding: 12px 12px 22px;
+            border: 1px solid #d7ccb6;
+            box-shadow: 0 12px 28px rgba(30,45,65,.09);
+        }
+
+        .flower-frame:first-child {
+            transform: rotate(-1.2deg);
+        }
+
+        .flower-frame:nth-child(2) {
+            transform: rotate(1.2deg);
+        }
+
+        .flower-frame img {
+            width: 100%;
+            height: 330px;
+            object-fit: cover;
+            display: block;
+            border: 1px solid #e1d8c7;
+        }
+
+        .flower-frame h3 {
+            text-align: center;
+            margin-top: 15px;
+            font-family: "Cormorant Garamond", serif;
+            font-size: 1.8rem;
+            color: var(--navy);
+            font-weight: 600;
+        }
+
+        .flower-frame p {
+            text-align: center;
+            margin-top: 2px;
+            color: var(--gold);
+            font-family: "Parisienne", cursive;
+            font-size: 1.15rem;
+        }
+
+
+        /* FACEBOOK NOTE */
+
+        .note-section {
+            margin: 55px auto 20px;
+            max-width: 620px;
+            text-align: center;
+        }
+
+        .note-section .eyebrow {
+            margin-bottom: 12px;
+        }
+
+        .facebook-note {
+            background: #fffdf8;
+            padding: 12px 12px 25px;
+            border: 1px solid #d7ccb6;
+            box-shadow: 0 12px 28px rgba(30,45,65,.09);
+            transform: rotate(-1deg);
+        }
+
+        .facebook-note img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: contain;
+            display: block;
+            background: #f3eee4;
+        }
+
+        .facebook-note p {
+            margin-top: 12px;
+            font-family: "Parisienne", cursive;
+            color: var(--blue);
+            font-size: 1.15rem;
+        }
+
+
+        @media (max-width:650px) {
+
+            .flower-collection {
+                grid-template-columns: 1fr;
+            }
+
+            .flower-frame img {
+                height: 300px;
+            }
+
+        }
+
+    </style>
+
+</head>
+
+
+<body>
+
+<nav>
+    <a href="index.html">Album</a>
+    <a href="candles.html">18 Candles</a>
+    <a href="flowers.html">Flowers</a>
+    <a href="song.html">Song</a>
+    <a href="photos.html">Photos</a>
+    <a href="name.html">Promise · Peace · Joy</a>
+    <a href="future.html">For Later</a>
+</nav>
+
+
+<main class="page">
+
+    <a class="back" href="index.html">← back to the album</a>
+
+
+    <div class="heading">
+
+        <div class="eyebrow">
+            something you mentioned once
+        </div>
+
+        <h1>The Flower Page</h1>
+
+        <p>
+            A small page dedicated to a flower you apparently like.
+        </p>
+
+    </div>
+
+
+    <div class="card flower-card">
+
+
+        <div class="script">
+            peony & thumbelina bouquets>>
+        </div>
+
+
+        <div class="ornament">
+            <span></span>
+            ❀
+            <span></span>
+        </div>
+
+
+        <p>
+            A few months ago, I think, you put one of those little notes on
+            Facebook, and I happened to see it.
+        </p>
+
+
+        <p>
+            And I remember thinking,
+            <br>
+            <em>oh, so Faith likes peonies.</em>
+        </p>
+
+
+        <p>
+            I don't think you ever actually told me that. I just happened to
+            see that little note, remembered it, and apparently decided that
+            months later, it deserved its own page. HAHAHA.
+        </p>
+
+
+        <!-- TWO FLOWER FRAMES -->
+
+        <div class="flower-collection">
+
+            <div class="flower-frame">
+                <img
+                    src="photos/peonies.jpg"
+                    alt="Peonies"
+                >
+
+                <h3>Peonies</h3>
+
+                <p>
+                    one of your favorites
+                </p>
+
+            </div>
+
+
+            <div class="flower-frame">
+
+                <img
+                    src="photos/thumbelina.jpg"
+                    alt="Thumbelina bouquet"
+                >
+
+                <h3>Thumbelina</h3>
+
+                <p>
+                    your favorite bouquet
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <p>
+            So here they are.
+        </p>
+
+
+        <p>
+            Your peonies, and your favorite bouquet, Thumbelina.
+        </p>
+
+
+        <div class="note">
+            “peony & thumbelina bouquets>>”
+        </div>
+
+
+        <!-- FACEBOOK NOTE -->
+
+        <div class="note-section">
+
+            <div class="eyebrow">
+                the evidence
+            </div>
+
+            <div class="facebook-note">
+
+                <img
+                    src="photos/facebook-note.jpg"
+                    alt="Facebook note about peony and Thumbelina bouquets"
+                >
+
+                <p>
+                    the little note that started this whole page
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <p>
+            I guess that's one of the funny things about knowing someone.
+            Sometimes they don't even have to tell you something directly.
+            You just happen to notice a little thing about them, keep it
+            somewhere in the back of your mind, and later find yourself
+            making something out of it.
+        </p>
+
+
+        <p>
+            Anyway, here's a flower page you probably didn't ask for.
+        </p>
+
+
+        <div class="ornament">
+            <span></span>
+            ♡
+            <span></span>
+        </div>
+
+
+    </div>
+
+</main>
+
+
+<footer>
+
+    <div class="crown">♕</div>
+
+    <h2>
+        For the flower enthusiast.
+    </h2>
+
+    <p>
+        Apparently??
+    </p>
+
+</footer>
+
+
+</body>
+</html>
